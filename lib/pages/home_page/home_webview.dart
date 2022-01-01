@@ -25,9 +25,9 @@ class HomeWebview extends StatelessWidget {
           Expanded(
             child: Row(
               children: <Widget>[
-                Expanded(
+                const Expanded(
                   child: Padding(
-                    padding: const EdgeInsets.all(16),
+                    padding: EdgeInsets.all(16),
                     child: HomeInfoCard(),
                   ),
                 ),

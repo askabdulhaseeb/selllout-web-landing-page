@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:go_router/go_router.dart';
 
 import '../../app_images.dart';
+import '../../pages/support_page/supoort_page.dart';
 import '../../utilities.dart';
 import '../core/custom_elevated_button.dart';
 
@@ -54,7 +56,7 @@ class _RightSide extends StatelessWidget {
           AppBarClickableButton(
             title: 'Help Center',
             isSelected: false,
-            onTap: () {},
+            onTap: () => GoRouter.of(context).go(SupportPage.routePath),
           ),
           CustomElevatedButton(
             title: 'DOWNLOAD',
