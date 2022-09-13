@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-import '../../utilities.dart';
 import '../../widgets/about/about_property_card.dart';
+import '../../widgets/core/app_title_text.dart';
 
 class AboutWebview extends StatelessWidget {
   const AboutWebview({super.key});
@@ -18,10 +18,7 @@ class AboutWebview extends StatelessWidget {
           child: Column(
             children: <Widget>[
               const SizedBox(height: 30),
-              const Text(
-                'About Our App',
-                style: TextStyle(fontWeight: FontWeight.w700, fontSize: 32),
-              ),
+              const AppTitleText(title: 'About out app'),
               const SizedBox(height: 20),
               SizedBox(
                 width: size.width / 2,
