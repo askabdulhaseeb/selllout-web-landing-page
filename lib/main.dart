@@ -26,6 +26,7 @@ class MyApp extends StatelessWidget {
         debugShowCheckedModeBanner: false,
         title: 'Selllout',
         theme: ThemeData(
+          useMaterial3: true,
           dividerTheme: const DividerThemeData(thickness: 0.5, space: 0),
           primaryColor: kPrimaryColor,
           colorScheme: const ColorScheme(

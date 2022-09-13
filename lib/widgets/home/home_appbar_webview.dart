@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../../app_images.dart';
+import '../../utilities.dart';
 import '../core/custom_elevated_button.dart';
 
 class HomeAppBarWebview extends StatelessWidget {
@@ -18,14 +19,7 @@ class HomeAppBarWebview extends StatelessWidget {
           decoration: BoxDecoration(
             color: Colors.white,
             borderRadius: BorderRadius.circular(10),
-            boxShadow: const <BoxShadow>[
-              BoxShadow(
-                color: Colors.black12,
-                blurRadius: 4,
-                offset: Offset(0, 0),
-                spreadRadius: 4,
-              )
-            ],
+            boxShadow: <BoxShadow>[Utilities.shadow()],
           ),
           child: SizedBox(
             height: 90,

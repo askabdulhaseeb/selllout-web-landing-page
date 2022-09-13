@@ -1,21 +1,28 @@
 import 'package:flutter/material.dart';
 
 import '../../widgets/home/home_appbar_webview.dart';
+import '../home_page/home_page.dart';
 
 class LandingPage extends StatelessWidget {
   const LandingPage({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      backgroundColor: Theme.of(context).primaryColor,
-      body: Padding(
-        padding: const EdgeInsets.symmetric(horizontal: 32, vertical: 16),
-        child: Column(
-          children: <Widget>[
-            const _ContactButton(),
-            const HomeAppBarWebview(),
-          ],
+    return SelectionArea(
+      child: Scaffold(
+        backgroundColor: Theme.of(context).primaryColor,
+        body: SizedBox(
+          height: MediaQuery.of(context).size.height,
+          child: Padding(
+            padding: const EdgeInsets.symmetric(horizontal: 32, vertical: 16),
+            child: Column(
+              children: const <Widget>[
+                _ContactButton(),
+                HomeAppBarWebview(),
+                Expanded(child: HomePage())
+              ],
+            ),
+          ),
         ),
       ),
     );
