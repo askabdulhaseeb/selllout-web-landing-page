@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import '../../app_images.dart';
 import '../../widgets/about/about_property_card.dart';
 import '../../widgets/core/app_title_text.dart';
 
@@ -32,7 +33,11 @@ class AboutWebview extends StatelessWidget {
               const SizedBox(height: 30),
               Row(
                 children: <Widget>[
-                  const Expanded(child: Center(child: Text('Image here'))),
+                  Expanded(
+                    child: Center(
+                      child: Image.asset(AppImages.downloadAppMobile),
+                    ),
+                  ),
                   Expanded(
                     child: Column(
                       children: const <Widget>[

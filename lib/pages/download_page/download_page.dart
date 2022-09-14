@@ -8,12 +8,10 @@ class DownloadPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
-      body: ResponsiveLayout(
-        mobile: SizedBox(),
-        tablet: DownloadWebview(),
-        desktop: DownloadWebview(),
-      ),
+    return const ResponsiveLayout(
+      mobile: SizedBox(),
+      tablet: DownloadWebview(),
+      desktop: DownloadWebview(),
     );
   }
 }

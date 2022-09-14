@@ -9,14 +9,10 @@ class AboutPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const SelectionArea(
-      child: Scaffold(
-        body: ResponsiveLayout(
-          mobile: SizedBox(),
-          tablet: AboutWebview(),
-          desktop: AboutWebview(),
-        ),
-      ),
+    return const ResponsiveLayout(
+      mobile: SizedBox(),
+      tablet: AboutWebview(),
+      desktop: AboutWebview(),
     );
   }
 }

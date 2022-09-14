@@ -1,8 +1,6 @@
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
 
-import '../../app_images.dart';
-
 class SecurityMobileScroller extends StatefulWidget {
   const SecurityMobileScroller({
     required this.list,
@@ -27,6 +25,7 @@ class _SecurityMobileStateScroller extends State<SecurityMobileScroller> {
         CarouselSlider(
           carouselController: _controller,
           options: CarouselOptions(
+            clipBehavior: Clip.none,
             height: size.height - 200,
             viewportFraction: widget.viewportFraction,
             enlargeCenterPage: true,

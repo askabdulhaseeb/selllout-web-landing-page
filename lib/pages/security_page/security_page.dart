@@ -9,12 +9,10 @@ class SecurityPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
-      body: ResponsiveLayout(
-        mobile: SizedBox(),
-        tablet: SecurityWebview(),
-        desktop: SecurityWebview(),
-      ),
+    return const ResponsiveLayout(
+      mobile: SizedBox(),
+      tablet: SecurityWebview(),
+      desktop: SecurityWebview(),
     );
   }
 }

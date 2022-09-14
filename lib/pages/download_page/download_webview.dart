@@ -9,7 +9,6 @@ class DownloadWebview extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final Size size = MediaQuery.of(context).size;
     return Padding(
       padding: const EdgeInsets.all(64),
       child: SizedBox(
@@ -50,10 +49,12 @@ class DownloadWebview extends StatelessWidget {
                   const DownloadButtonSection(),
                 ],
               ),
-              SizedBox(
-                height: 400,
-                width: size.width / 2 - 200,
-                child: Image.asset(AppImages.downloadAppMobile),
+              Expanded(
+                child: SizedBox(
+                  height: 400,
+                  width: double.infinity,
+                  child: Image.asset(AppImages.downloadAppMobile),
+                ),
               ),
             ],
           ),

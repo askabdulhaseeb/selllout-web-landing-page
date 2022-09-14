@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 
-import '../../app_images.dart';
-import '../../utilities.dart';
 import '../../widgets/core/responsive_layout.dart';
 import 'home_webview.dart';
 

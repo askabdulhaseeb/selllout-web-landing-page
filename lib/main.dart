@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
-import 'pages/download_page/download_page.dart';
-import 'pages/home_page/home_page.dart';
+import 'pages/landing_page/landing_page.dart';
 import 'providers/home_app_bar_provider.dart';
 
 void main() {
@@ -44,7 +43,7 @@ class MyApp extends StatelessWidget {
             brightness: Brightness.light,
           ),
         ),
-        home: const HomePage(),
+        home: const LandingPage(),
       ),
     );
   }

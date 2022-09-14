@@ -9,17 +9,13 @@ class FeaturePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return SelectionArea(
-      child: Scaffold(
-        backgroundColor: Theme.of(context).primaryColor,
-        body: SizedBox(
-          height: MediaQuery.of(context).size.height,
-          child: const ResponsiveLayout(
-            mobile: SizedBox(),
-            tablet: FeatureWebview(),
-            desktop: FeatureWebview(),
-          ),
-        ),
+    return Container(
+      height: MediaQuery.of(context).size.height,
+      color: Theme.of(context).primaryColor,
+      child: const ResponsiveLayout(
+        mobile: SizedBox(),
+        tablet: FeatureWebview(),
+        desktop: FeatureWebview(),
       ),
     );
   }
