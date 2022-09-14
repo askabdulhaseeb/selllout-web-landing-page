@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../../widgets/core/responsive_layout.dart';
+import 'feature_mobileview.dart';
 import 'feature_webview.dart';
 
 class FeaturePage extends StatelessWidget {
@@ -9,14 +10,10 @@ class FeaturePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      height: MediaQuery.of(context).size.height,
-      color: Theme.of(context).primaryColor,
-      child: const ResponsiveLayout(
-        mobile: SizedBox(),
-        tablet: FeatureWebview(),
-        desktop: FeatureWebview(),
-      ),
+    return const ResponsiveLayout(
+      mobile: FeatureMobileview(),
+      tablet: FeatureWebview(),
+      desktop: FeatureWebview(),
     );
   }
 }

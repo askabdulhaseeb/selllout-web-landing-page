@@ -13,6 +13,7 @@ class AppTitleText extends StatelessWidget {
   Widget build(BuildContext context) {
     return Text(
       title.toUpperCase(),
+      textAlign: TextAlign.center,
       style: TextStyle(fontWeight: FontWeight.w700, fontSize: 32, color: color),
     );
   }

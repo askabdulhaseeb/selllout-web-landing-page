@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../../widgets/core/responsive_layout.dart';
+import 'security_mobileview.dart';
 import 'security_website.dart';
 
 class SecurityPage extends StatelessWidget {
@@ -10,7 +11,7 @@ class SecurityPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const ResponsiveLayout(
-      mobile: SizedBox(),
+      mobile: SecurityMobileview(),
       tablet: SecurityWebview(),
       desktop: SecurityWebview(),
     );
