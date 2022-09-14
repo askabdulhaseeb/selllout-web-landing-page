@@ -26,9 +26,12 @@ class HomeMobileview extends StatelessWidget {
             height: MediaQuery.of(context).size.height / 1.5,
             child: const HomeInfoCard(),
           ),
-          AspectRatio(
-            aspectRatio: 4 / 3,
-            child: Image.asset(AppImages.downloadAppMobile),
+          Padding(
+            padding: const EdgeInsets.symmetric(vertical: 24),
+            child: AspectRatio(
+              aspectRatio: 2 / 2,
+              child: Image.asset(AppImages.mob0),
+            ),
           ),
         ],
       ),

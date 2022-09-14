@@ -2,8 +2,35 @@ import 'package:flutter/material.dart';
 
 import '../../utilities.dart';
 
-class AboutPropertyCard extends StatelessWidget {
-  const AboutPropertyCard({
+class AboutInfoCardList extends StatelessWidget {
+  const AboutInfoCardList({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Column(
+      children: const <Widget>[
+        _AboutPropertyCard(
+          title: 'Creative design',
+          subtitle:
+              'We made sure to create the perfect design to be beautiful, simple and approachable.',
+        ),
+        _AboutPropertyCard(
+          title: 'easy to use',
+          subtitle:
+              'We wanted to make it easy for all ages to be able to use our app and explore all the great features we implemented.',
+        ),
+        _AboutPropertyCard(
+          title: 'Best user Experience',
+          subtitle:
+              'We guarantee the best user experience and we are always improving daily to make sure everything flows perfectly for our users.',
+        )
+      ],
+    );
+  }
+}
+
+class _AboutPropertyCard extends StatelessWidget {
+  const _AboutPropertyCard({
     required this.title,
     required this.subtitle,
     Key? key,

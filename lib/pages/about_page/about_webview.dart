@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../../app_images.dart';
-import '../../widgets/about/about_property_card.dart';
+import '../../widgets/about/about_info_card_list.dart';
 import '../../widgets/core/app_title_text.dart';
 
 class AboutWebview extends StatelessWidget {
@@ -38,27 +38,7 @@ class AboutWebview extends StatelessWidget {
                       child: Image.asset(AppImages.downloadAppMobile),
                     ),
                   ),
-                  Expanded(
-                    child: Column(
-                      children: const <Widget>[
-                        AboutPropertyCard(
-                          title: 'Creative design',
-                          subtitle:
-                              'We made sure to create the perfect design to be beautiful, simple and approachable.',
-                        ),
-                        AboutPropertyCard(
-                          title: 'easy to use',
-                          subtitle:
-                              'We wanted to make it easy for all ages to be able to use our app and explore all the great features we implemented.',
-                        ),
-                        AboutPropertyCard(
-                          title: 'Best user Experience',
-                          subtitle:
-                              'We guarantee the best user experience and we are always improving daily to make sure everything flows perfectly for our users.',
-                        )
-                      ],
-                    ),
-                  ),
+                  const Expanded(child: AboutInfoCardList()),
                 ],
               ),
               const SizedBox(height: 30),
