@@ -63,7 +63,7 @@ class FeatureWebview extends StatelessWidget {
                           ),
                         ],
                       ),
-                      Image.asset(AppImages.bet, fit: BoxFit.fitHeight),
+                      Image.asset(AppImages.mob1, fit: BoxFit.fitHeight),
                       Column(
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: const <Widget>[
