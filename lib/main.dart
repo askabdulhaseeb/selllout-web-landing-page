@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    const Color kPrimaryColor = Color(0xFFD32F2F);
+    const Color kPrimaryColor = Color(0xFFBF1017);
     const Color kSecondaryColor = Color(0xFF7C4DFF);
     return MultiProvider(
       // ignore: always_specify_types

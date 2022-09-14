@@ -10,7 +10,7 @@ class TeamPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const ResponsiveLayout(
-        mobile: SizedBox(),
+        mobile: TeamWebview(),
         tablet: TeamWebview(),
         desktop: TeamWebview(),
     );
