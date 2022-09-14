@@ -3,6 +3,7 @@ import 'package:provider/provider.dart';
 
 import 'pages/help_center_page/help_center_page.dart';
 import 'pages/landing_page/landing_page.dart';
+import 'pages/team_page/team_page.dart';
 import 'providers/home_app_bar_provider.dart';
 
 void main() {
@@ -44,7 +45,7 @@ class MyApp extends StatelessWidget {
             brightness: Brightness.light,
           ),
         ),
-        home: const HelpCenterPage(),
+        home: const TeamPage(),
       ),
     );
   }
