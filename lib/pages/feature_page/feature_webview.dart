@@ -63,7 +63,12 @@ class FeatureWebview extends StatelessWidget {
                           ),
                         ],
                       ),
-                      Image.asset(AppImages.mob1, fit: BoxFit.fitHeight),
+                      Padding(
+                        padding: const EdgeInsets.symmetric(
+                            vertical: 10, horizontal: 20),
+                        child:
+                            Image.asset(AppImages.mob1, fit: BoxFit.fitHeight),
+                      ),
                       Column(
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: const <Widget>[
@@ -96,6 +101,7 @@ class FeatureWebview extends StatelessWidget {
               detail:
                   'We will respond to all emails and calls within 24 hours.',
             ),
+            const SizedBox(height: 30),
           ],
         ),
       ),

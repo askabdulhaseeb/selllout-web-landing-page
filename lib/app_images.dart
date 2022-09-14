@@ -10,6 +10,7 @@ class AppImages {
   static String get tab4 => 'assets/images/tab-4.png';
   //
   // Mobiles
+  static String get mob0 => 'assets/images/mobile-0.png';
   static String get mob1 => 'assets/images/mobile-1.png';
   static String get mob2 => 'assets/images/mobile-2.png';
   static String get mob3 => 'assets/images/mobile-3.png';
