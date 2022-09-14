@@ -1,10 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
-import 'pages/feature_page/feature_page.dart';
-import 'pages/security_page/security_page.dart';
+import 'pages/download_page/download_page.dart';
 import 'providers/home_app_bar_provider.dart';
-
 void main() {
   runApp(const MyApp());
 }
@@ -44,7 +42,7 @@ class MyApp extends StatelessWidget {
             brightness: Brightness.light,
           ),
         ),
-        home: const SecurityPage(),
+        home: const DownloadPage(),
       ),
     );
   }
