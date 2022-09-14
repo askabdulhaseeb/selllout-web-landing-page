@@ -6,8 +6,11 @@ import '../../providers/home_app_bar_provider.dart';
 import '../about_page/about_page.dart';
 import '../download_page/download_page.dart';
 import '../feature_page/feature_page.dart';
+import '../footer/footer.dart';
+import '../help_center_page/help_center_page.dart';
 import '../home_page/home_page.dart';
 import '../security_page/security_page.dart';
+import '../team_page/team_page.dart';
 
 class LandingPage extends StatelessWidget {
   const LandingPage({super.key});
@@ -18,7 +21,9 @@ class LandingPage extends StatelessWidget {
     FeaturePage(),
     DownloadPage(),
     SecurityPage(),
-    // Footer(),
+    HelpCenterPage(),
+    TeamPage(),
+    Footer(),
   ];
   @override
   Widget build(BuildContext context) {

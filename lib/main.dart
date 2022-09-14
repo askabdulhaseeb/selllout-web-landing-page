@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
+import 'pages/footer/footer.dart';
 import 'pages/help_center_page/help_center_page.dart';
 import 'pages/landing_page/landing_page.dart';
 import 'pages/team_page/team_page.dart';
@@ -45,7 +46,7 @@ class MyApp extends StatelessWidget {
             brightness: Brightness.light,
           ),
         ),
-        home: const TeamPage(),
+        home: const LandingPage(),
       ),
     );
   }
