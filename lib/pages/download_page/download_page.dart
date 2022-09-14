@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../../widgets/core/responsive_layout.dart';
+import 'download_mobileview.dart';
 import 'download_webview.dart';
 
 class DownloadPage extends StatelessWidget {
@@ -9,7 +10,7 @@ class DownloadPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const ResponsiveLayout(
-      mobile: SizedBox(),
+      mobile: DownloadMobileview(),
       tablet: DownloadWebview(),
       desktop: DownloadWebview(),
     );
