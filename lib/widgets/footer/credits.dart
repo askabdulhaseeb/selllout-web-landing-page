@@ -7,7 +7,7 @@ class Credits extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final Uri _url = Uri.parse('https://devmarkaz.com');
+    final Uri url = Uri.parse('https://devmarkaz.com');
     return RichText(
       text: TextSpan(
         style: const TextStyle(color: Colors.white54),
@@ -17,8 +17,8 @@ class Credits extends StatelessWidget {
             text: ' Dev Markaz',
             recognizer: TapGestureRecognizer()
               ..onTap = () async {
-                if (!await launchUrl(_url)) {
-                  throw 'Could not launch $_url';
+                if (!await launchUrl(url)) {
+                  throw 'Could not launch $url';
                 }
               },
             style: const TextStyle(
