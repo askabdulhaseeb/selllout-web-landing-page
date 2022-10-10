@@ -1,13 +1,16 @@
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
-import 'pages/footer/footer.dart';
-import 'pages/help_center_page/help_center_page.dart';
+import 'firebase_options.dart';
 import 'pages/landing_page/landing_page.dart';
-import 'pages/team_page/team_page.dart';
 import 'providers/home_app_bar_provider.dart';
 
-void main() {
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp(
+    options: DefaultFirebaseOptions.currentPlatform,
+  );
   runApp(const MyApp());
 }
 
@@ -51,3 +54,6 @@ class MyApp extends StatelessWidget {
     );
   }
 }
+
+// flutter build web
+// firebase deploy --only hosting

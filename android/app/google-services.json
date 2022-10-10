@@ -1,0 +1,90 @@
+{
+  "project_info": {
+    "project_number": "278140333975",
+    "project_id": "selll-out",
+    "storage_bucket": "selll-out.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:278140333975:android:32494f3707d3caebc15ed2",
+        "android_client_info": {
+          "package_name": "com.selllout.selllout"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "278140333975-bgj1fkp2d5684f935s4fg7sm6svdqjg4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.selllout.selllout",
+            "certificate_hash": "f63c6e073798d1378d8dad2b80be5e2c50ef71f9"
+          }
+        },
+        {
+          "client_id": "278140333975-rgfns8b42a69e0d4rqbc4ob4o3ou1kmn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCA53ztuE-Kq42RRPRn5t1FyjGK7DbXi2k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "278140333975-rgfns8b42a69e0d4rqbc4ob4o3ou1kmn.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "278140333975-nrgbl6lpcndarvtamgmof1pn7onsut5n.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.selllout.selllout"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:278140333975:android:e7435304116e5229c15ed2",
+        "android_client_info": {
+          "package_name": "com.selllout.sellout_web_landing"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "278140333975-rgfns8b42a69e0d4rqbc4ob4o3ou1kmn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCA53ztuE-Kq42RRPRn5t1FyjGK7DbXi2k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "278140333975-rgfns8b42a69e0d4rqbc4ob4o3ou1kmn.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "278140333975-nrgbl6lpcndarvtamgmof1pn7onsut5n.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.selllout.selllout"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

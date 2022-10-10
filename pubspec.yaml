@@ -13,10 +13,7 @@ dependencies:
 
   go_router: ^4.2.2
 
-  cloud_firestore: ^3.1.17
-  firebase_auth: ^3.3.19
   firebase_core: ^1.17.1
-  firebase_storage: ^10.2.17
 
   shared_preferences: ^2.0.15
   provider: ^6.0.3
@@ -38,6 +35,16 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^2.0.0
+  flutter_launcher_icons: ^0.10.0
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/logos/logo.png"
+  web:
+    generate: true
+    image_path: "assets/logos/logo.png"
+
 flutter:
   uses-material-design: true
 
