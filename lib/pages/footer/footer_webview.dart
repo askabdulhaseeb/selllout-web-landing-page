@@ -4,6 +4,7 @@ import 'package:go_router/go_router.dart';
 import '../../widgets/core/app_title_text.dart';
 import '../../widgets/footer/copyright.dart';
 import '../../widgets/footer/credits.dart';
+import '../../widgets/footer/privacy_support_buttons.dart';
 import '../privacy_policy_page/privacy_policy_page.dart';
 
 class FooterWebview extends StatelessWidget {
@@ -31,11 +32,9 @@ class FooterWebview extends StatelessWidget {
             ),
           ),
           const SizedBox(height: 40),
+          const PrivacySupportButtons(),
+          const SizedBox(height: 20),
           const Divider(color: Colors.white30),
-          TextButton(
-            onPressed: () => GoRouter.of(context).go(PrivacyPage.routePath),
-            child: const Text('Privacy Policy'),
-          ),
           const SizedBox(height: 20),
           const Copyrights(),
           const SizedBox(height: 10),

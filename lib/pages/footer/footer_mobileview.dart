@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import '../../widgets/core/app_title_text.dart';
 import '../../widgets/footer/copyright.dart';
 import '../../widgets/footer/credits.dart';
+import '../../widgets/footer/privacy_support_buttons.dart';
 
 class FooterMobileview extends StatelessWidget {
   const FooterMobileview({super.key});
@@ -24,6 +25,8 @@ class FooterMobileview extends StatelessWidget {
           SizedBox(height: 40),
           _NewsLetter(),
           SizedBox(height: 40),
+          PrivacySupportButtons(),
+          SizedBox(height: 20),
           Divider(color: Colors.white30),
           SizedBox(height: 20),
           Center(child: Copyrights()),
