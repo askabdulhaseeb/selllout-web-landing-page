@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:go_router/go_router.dart';
 
 import '../../widgets/core/app_title_text.dart';
 import '../../widgets/footer/copyright.dart';
 import '../../widgets/footer/credits.dart';
+import '../privacy_policy_page/privacy_policy_page.dart';
 
 class FooterWebview extends StatelessWidget {
   const FooterWebview({super.key});
@@ -30,6 +32,10 @@ class FooterWebview extends StatelessWidget {
           ),
           const SizedBox(height: 40),
           const Divider(color: Colors.white30),
+          TextButton(
+            onPressed: () => GoRouter.of(context).go(PrivacyPage.routePath),
+            child: const Text('Privacy Policy'),
+          ),
           const SizedBox(height: 20),
           const Copyrights(),
           const SizedBox(height: 10),
