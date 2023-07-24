@@ -4,6 +4,7 @@ import 'package:go_router/go_router.dart';
 
 import '../../pages/privacy_policy_page/privacy_policy_page.dart';
 import '../../pages/support_page/supoort_page.dart';
+import '../../pages/term_and_condition/term_and_condition_page.dart';
 
 class PrivacySupportButtons extends StatelessWidget {
   const PrivacySupportButtons({Key? key}) : super(key: key);
@@ -22,6 +23,20 @@ class PrivacySupportButtons extends StatelessWidget {
             text: 'Privacy Policy',
             recognizer: TapGestureRecognizer()
               ..onTap = () => GoRouter.of(context).go(PrivacyPage.routePath),
+          ),
+          const TextSpan(
+            text: '      |      ',
+            style: TextStyle(
+              color: Colors.white,
+              fontWeight: FontWeight.bold,
+              decoration: TextDecoration.none,
+            ),
+          ),
+          TextSpan(
+            text: 'User Agreement',
+            recognizer: TapGestureRecognizer()
+              ..onTap =
+                  () => GoRouter.of(context).go(TermAndConditionPage.routeName),
           ),
           const TextSpan(
             text: '      |      ',

@@ -6,7 +6,6 @@ import 'pages/privacy_policy_page/privacy_policy_page.dart';
 import 'pages/support_page/supoort_page.dart';
 
 final GoRouter router = GoRouter(
-  urlPathStrategy: UrlPathStrategy.path,
   initialLocation: LandingPage.routePath,
   routes: <GoRoute>[
     GoRoute(
