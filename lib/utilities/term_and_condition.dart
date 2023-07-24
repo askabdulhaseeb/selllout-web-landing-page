@@ -41,7 +41,7 @@ class TermAndConditions {
   ];
   static String agrementHeading = '1. AGREEMENT TO TERMS\n\n';
   static String agrement1 =
-      'These Terms and Conditions constitute a legally binding agreement made between you, whether personally or on behalf of an entity (“you”) and Boloodo';
+      'These Terms and Conditions constitute a legally binding agreement made between you, whether personally or on behalf of an entity (“you”) and Sellout';
   static String agrementbold = '"Company", “we”, “us”, or “our”';
   static String agrement2 = 'concerning your access to and use of the';
   static String agrement3 =
@@ -71,7 +71,7 @@ class TermAndConditions {
     terms(
         heading: '6. CANCELLATION',
         Body:
-            'You can cancel your subscription at any time by logging into your account. Your cancellation will take effect at the end of the current paid term.\n\n If you are unsatisfied with our services, please email us at info@boloodo.com.\n\n'),
+            'You can cancel your subscription at any time by logging into your account. Your cancellation will take effect at the end of the current paid term.\n\n If you are unsatisfied with our services, please email us at info@Sellout.com.\n\n'),
     terms(
         heading: '7. SOFTWARE',
         Body:
@@ -123,8 +123,8 @@ class TermAndConditions {
     terms(
         heading: '19. PRIVACY POLICY',
         Body:
-            'We care about data privacy and security. Please review our Privacy Policy: https:\\http://www.boloodo.com. By using the Site, you agree to be bound by our Privacy Policy, which is incorporated into these Terms and Conditions. Please be advised the Site is hosted in the United Kingdom. If you access the Site from any other region of the world with laws or other requirements governing personal data collection, use, or disclosure that differ from applicable laws in the United Kingdom, then through your continued use of the Site, you are transferring your data to the United Kingdom, and you agree to have your data transferred to and processed in the United Kingdom. Further, we do not knowingly accept, request, or solicit information from children or knowingly market to children. Therefore, in accordance with the U.S. Children’s Online Privacy Protection Act, if we receive actual knowledge that anyone under the age of 13 has provided personal information to us without the requisite and verifiable parental consent, we will delete that information from the Site as quickly as is reasonably practical.'),
-    //terms(heading: heading, Body: 'We care about data privacy and security. Please review our Privacy Policy: https:\\http://www.boloodo.com. By using the Site, you agree to be bound by our Privacy Policy, which is incorporated into these Terms and Conditions. Please be advised the Site is hosted in the United Kingdom. If you access the Site from any other region of the world with laws or other requirements governing personal data collection, use, or disclosure that differ from applicable laws in the United Kingdom, then through your continued use of the Site, you are transferring your data to the United Kingdom, and you agree to have your data transferred to and processed in the United Kingdom. Further, we do not knowingly accept, request, or solicit information from children or knowingly market to children. Therefore, in accordance with the U.S. Children’s Online Privacy Protection Act, if we receive actual knowledge that anyone under the age of 13 has provided personal information to us without the requisite and verifiable parental consent, we will delete that information from the Site as quickly as is reasonably practical.'),
+            'We care about data privacy and security. Please review our Privacy Policy: https:\\http://www.Sellout.com. By using the Site, you agree to be bound by our Privacy Policy, which is incorporated into these Terms and Conditions. Please be advised the Site is hosted in the United Kingdom. If you access the Site from any other region of the world with laws or other requirements governing personal data collection, use, or disclosure that differ from applicable laws in the United Kingdom, then through your continued use of the Site, you are transferring your data to the United Kingdom, and you agree to have your data transferred to and processed in the United Kingdom. Further, we do not knowingly accept, request, or solicit information from children or knowingly market to children. Therefore, in accordance with the U.S. Children’s Online Privacy Protection Act, if we receive actual knowledge that anyone under the age of 13 has provided personal information to us without the requisite and verifiable parental consent, we will delete that information from the Site as quickly as is reasonably practical.'),
+    //terms(heading: heading, Body: 'We care about data privacy and security. Please review our Privacy Policy: https:\\http://www.Sellout.com. By using the Site, you agree to be bound by our Privacy Policy, which is incorporated into these Terms and Conditions. Please be advised the Site is hosted in the United Kingdom. If you access the Site from any other region of the world with laws or other requirements governing personal data collection, use, or disclosure that differ from applicable laws in the United Kingdom, then through your continued use of the Site, you are transferring your data to the United Kingdom, and you agree to have your data transferred to and processed in the United Kingdom. Further, we do not knowingly accept, request, or solicit information from children or knowingly market to children. Therefore, in accordance with the U.S. Children’s Online Privacy Protection Act, if we receive actual knowledge that anyone under the age of 13 has provided personal information to us without the requisite and verifiable parental consent, we will delete that information from the Site as quickly as is reasonably practical.'),
     terms(
         heading: '20. COPYRIGHT INFRINGEMENTS',
         Body:
@@ -140,7 +140,7 @@ class TermAndConditions {
     terms(
         heading: '23. GOVERNING LAW',
         Body:
-            'These conditions are governed by and interpreted following the laws of the United Kingdom, and the use of the United Nations Convention of Contracts for the International Sale of Goods is expressly excluded. If your habitual residence is in the EU, and you are a consumer, you additionally possess the protection provided to you by obligatory provisions of the law of your country of residence. Boloodo and yourself both agree to submit to the non-exclusive jurisdiction of the courts of Cambridgeshire, which means that you may make a claim to defend your consumer protection rights in regards to these Conditions of Use in the United Kingdom, or in the EU country in which you reside.'),
+            'These conditions are governed by and interpreted following the laws of the United Kingdom, and the use of the United Nations Convention of Contracts for the International Sale of Goods is expressly excluded. If your habitual residence is in the EU, and you are a consumer, you additionally possess the protection provided to you by obligatory provisions of the law of your country of residence. Sellout and yourself both agree to submit to the non-exclusive jurisdiction of the courts of Cambridgeshire, which means that you may make a claim to defend your consumer protection rights in regards to these Conditions of Use in the United Kingdom, or in the EU country in which you reside.'),
     terms(
         heading: '24. DISPUTE RESOLUTION',
         Body:
@@ -183,7 +183,7 @@ class TermAndConditions {
             'In order to resolve a complaint regarding the Site or to receive further information regarding use of the Site, please contact us at:'),
   ];
   static String ending =
-      'Boloodo \nunit 4 The Courtyard\nNorfolk Street\nPeterborough, Cambridgeshire PE1 2NP\nEngland\ninfo@boloodo.com';
+      'Sellout \nunit 4 The Courtyard\nNorfolk Street\nPeterborough, Cambridgeshire PE1 2NP\nEngland\ninfo@Sellout.com';
 }
 
 class TableOfContent {

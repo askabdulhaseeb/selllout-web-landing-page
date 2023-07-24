@@ -4,6 +4,7 @@ import 'package:go_router/go_router.dart';
 import 'pages/landing_page/landing_page.dart';
 import 'pages/privacy_policy_page/privacy_policy_page.dart';
 import 'pages/support_page/supoort_page.dart';
+import 'pages/term_and_condition/term_and_condition_page.dart';
 
 final GoRouter router = GoRouter(
   initialLocation: LandingPage.routePath,
@@ -18,6 +19,9 @@ final GoRouter router = GoRouter(
       builder: (BuildContext context, GoRouterState state) =>
           const PrivacyPage(),
     ),
+    GoRoute(
+        path: TermAndConditionPage.routeName,
+        builder: (_, __) => const TermAndConditionPage()),
     GoRoute(
       path: SupportPage.routePath,
       builder: (BuildContext context, GoRouterState state) =>
